@@ -1,0 +1,27 @@
+------Git Bash------
+
+composer require laravel/jetstream
+
+laravel new [nameOfProject] --jet
+	1 for Inertia
+	n for Not using teams
+
+cd [nameOfProject]
+php artisan jetstream:install livewire
+
+npm install && npm run dev
+
+php artisan serve
+
+------PHPMyAdmin------
+
+Create new database
+
+------VS Code------
+
+Update database in .env
+
+Open project folder
+php artisan migrate
+
+*root*/register
